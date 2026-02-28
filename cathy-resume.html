@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cathy M. Dela Cruz — Virtual Administrative Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="cathy-style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">CMD<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-btn active" onclick="showPage('home',this)">Home</a></li>
+      <li><a href="#" class="nav-btn" onclick="showPage('about',this)">About</a></li>
+      <li><a href="#" class="nav-btn" onclick="showPage('skills',this)">Skills</a></li>
+      <li><a href="#" class="nav-btn" onclick="showPage('contact',this)">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ===================== PAGE: HOME ===================== -->
+  <div id="page-home" class="page active">
+
+    <section class="hero">
+      <div class="hero-bg-text">HIRE<br>ME</div>
+      <div class="hero-content">
+        <p class="section-label">Virtual Administrative Assistant</p>
+        <h1 class="hero-name">Cathy M.<br><em>Dela Cruz</em></h1>
+        <p class="hero-tagline">Turning 4 years of customer-facing excellence into seamless remote operations — your business, organized and running smoothly.</p>
+        <div class="hero-cta">
+          <button class="btn-primary" onclick="showPage('about', document.querySelectorAll('.nav-btn')[1])">Explore My Profile</button>
+          <button class="btn-secondary" onclick="showPage('contact', document.querySelectorAll('.nav-btn')[3])">Let's Work Together</button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="avatar-wrap">
+            <div class="avatar-initials">CMD</div>
+          </div>
+          <p class="hero-card-name">Cathy M. Dela Cruz</p>
+          <p class="hero-card-title">Virtual Admin Assistant</p>
+          <div class="hero-stats">
+            <div class="stat"><span>4</span><small>Years CSR Experience</small></div>
+            <div class="stat"><span>100%</span><small>Remote-Ready</small></div>
+            <div class="stat"><span>2</span><small>Languages</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <p class="section-label">Why Choose Cathy</p>
+      <h2>Real experience.<br>Real results. <em>Remote.</em></h2>
+      <div class="highlight-grid">
+        <div class="highlight-card">
+          <div class="hc-icon">📋</div>
+          <h3>Admin & Organization</h3>
+          <p>Managed high-volume ticketing systems, documented resolutions, and maintained accurate records for thousands of customer accounts daily.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="hc-icon">💬</div>
+          <h3>Communication Pro</h3>
+          <p>Communicated professionally via email, chat, and phone across diverse clients. Clear, concise, and always on-brand.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="hc-icon">⏱️</div>
+          <h3>Time Management</h3>
+          <p>Handled multiple accounts under strict SLA deadlines — thriving under pressure and delivering quality work consistently.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="hc-icon">🔧</div>
+          <h3>Tech-Savvy</h3>
+          <p>Experienced with CRM platforms, ticketing tools, Microsoft Office, and quick to learn new software independently.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Cathy M. Dela Cruz &mdash; Available for remote work from the Philippines 🇵🇭</p>
+      <div class="footer-links">
+        <a href="#" onclick="showPage('home',document.querySelectorAll('.nav-btn')[0])">Home</a>
+        <a href="#" onclick="showPage('about',document.querySelectorAll('.nav-btn')[1])">About</a>
+        <a href="#" onclick="showPage('skills',document.querySelectorAll('.nav-btn')[2])">Skills</a>
+        <a href="#" onclick="showPage('contact',document.querySelectorAll('.nav-btn')[3])">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ===================== PAGE: ABOUT ===================== -->
+  <div id="page-about" class="page">
+
+    <section class="page-header">
+      <p class="section-label">Get to Know Me</p>
+      <h1>About <em>Cathy</em></h1>
+    </section>
+
+    <section class="about-section">
+      <div class="about-left">
+        <div class="about-avatar">
+          <div class="avatar-large">CMD</div>
+          <div class="about-badge">📍 Cavite, Philippines</div>
+          <div class="about-badge">🌐 Open to Remote Work</div>
+          <div class="about-badge">⏰ PHT (UTC+8)</div>
+        </div>
+      </div>
+      <div class="about-right">
+        <h2>My Story</h2>
+        <p>For four years, I dedicated myself as a <strong>Customer Service Representative</strong> at a company in BGC, Taguig — one of the most demanding work environments in Metro Manila. Every day, I navigated complex client concerns, met performance metrics, and delivered results under pressure.</p>
+        <p>Through that journey, I built a deep skillset that goes far beyond answering calls. I learned to manage workflows, communicate with clarity, solve problems on the fly, and keep detailed records — all while maintaining a professional, calm demeanor.</p>
+        <p>Now, I'm ready to bring that same dedication to a role where I can work smarter. As a <strong>Virtual Administrative Assistant</strong>, I want to help businesses run more efficiently — from behind a screen, on my own time, with full accountability and commitment.</p>
+        <blockquote class="about-quote">"I may be new to the title, but I am not new to the work."</blockquote>
+      </div>
+    </section>
+
+    <section class="timeline-section">
+      <p class="section-label">Work Experience</p>
+      <h2>My Professional <em>Journey</em></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020 – 2024</span>
+            <h3>Customer Service Representative</h3>
+            <p class="timeline-company">BPO Company — BGC, Taguig</p>
+            <ul class="timeline-list">
+              <li>Handled 80–100 inbound and outbound customer interactions daily via phone, email, and live chat</li>
+              <li>Maintained and updated customer account records with 99%+ accuracy using CRM software</li>
+              <li>Resolved escalated concerns and coordinated with multiple departments to deliver solutions</li>
+              <li>Drafted and responded to professional business emails and correspondence</li>
+              <li>Consistently met or exceeded KPIs: CSAT scores, first call resolution, and average handle time</li>
+              <li>Trained and mentored 3 new team members on company protocols and communication standards</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item timeline-future">
+          <div class="timeline-dot future"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025 — Present</span>
+            <h3>Virtual Administrative Assistant</h3>
+            <p class="timeline-company">Open to Opportunities — Remote</p>
+            <p>Ready to apply 4 years of professional experience in a fully remote capacity. Equipped with the tools, mindset, and discipline to deliver exceptional administrative support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="values-section">
+      <p class="section-label">What Drives Me</p>
+      <h2>My <em>Values</em></h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <span>01</span>
+          <h3>Reliability</h3>
+          <p>I show up on time, meet deadlines, and follow through on every commitment. No excuses.</p>
+        </div>
+        <div class="value-card">
+          <span>02</span>
+          <h3>Adaptability</h3>
+          <p>Four years in customer service taught me to handle the unexpected with grace and composure.</p>
+        </div>
+        <div class="value-card">
+          <span>03</span>
+          <h3>Attention to Detail</h3>
+          <p>I notice what others miss — ensuring accurate records, clean communication, and zero dropped balls.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Cathy M. Dela Cruz &mdash; Available for remote work from the Philippines 🇵🇭</p>
+      <div class="footer-links">
+        <a href="#" onclick="showPage('home',document.querySelectorAll('.nav-btn')[0])">Home</a>
+        <a href="#" onclick="showPage('about',document.querySelectorAll('.nav-btn')[1])">About</a>
+        <a href="#" onclick="showPage('skills',document.querySelectorAll('.nav-btn')[2])">Skills</a>
+        <a href="#" onclick="showPage('contact',document.querySelectorAll('.nav-btn')[3])">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ===================== PAGE: SKILLS ===================== -->
+  <div id="page-skills" class="page">
+
+    <section class="page-header">
+      <p class="section-label">What I Bring to the Table</p>
+      <h1>Skills &amp; <em>Qualifications</em></h1>
+    </section>
+
+    <section class="transfer-intro">
+      <div class="transfer-box">
+        <h2>CSR Experience → <em>VA Superpowers</em></h2>
+        <p>Every skill I developed as a Customer Service Representative directly maps to what a Virtual Administrative Assistant needs to succeed. Here's the proof:</p>
+      </div>
+      <div class="transfer-grid">
+        <div class="transfer-card header-row">
+          <div class="tc-from">CSR Skill</div>
+          <div class="tc-arrow">→</div>
+          <div class="tc-to">VA Application</div>
+        </div>
+        <div class="transfer-card">
+          <div class="tc-from">📞 Handling 100+ calls/day</div>
+          <div class="tc-arrow">→</div>
+          <div class="tc-to">Managing executive schedules & communication</div>
+        </div>
+        <div class="transfer-card">
+          <div class="tc-from">📝 CRM data entry & logging</div>
+          <div class="tc-arrow">→</div>
+          <div class="tc-to">Database management & records organization</div>
+        </div>
+        <div class="transfer-card">
+          <div class="tc-from">✉️ Email & chat correspondence</div>
+          <div class="tc-arrow">→</div>
+          <div class="tc-to">Email management & professional drafting</div>
+        </div>
+        <div class="transfer-card">
+          <div class="tc-from">⚡ SLA deadline management</div>
+          <div class="tc-arrow">→</div>
+          <div class="tc-to">Task prioritization & project tracking</div>
+        </div>
+        <div class="transfer-card">
+          <div class="tc-from">🤝 Cross-department coordination</div>
+          <div class="tc-arrow">→</div>
+          <div class="tc-to">Vendor & team liaison support</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <p class="section-label">Core Competencies</p>
+      <h2>Virtual Assistant <em>Skills</em></h2>
+      <div class="skills-columns">
+        <div class="skills-col">
+          <h3>Administrative Support</h3>
+          <div class="skill-item">
+            <span class="skill-name">Email Management</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Calendar & Scheduling</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:82%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Data Entry & Record Keeping</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:93%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Document Preparation</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Customer/Client Communication</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:97%"></div></div>
+          </div>
+        </div>
+        <div class="skills-col">
+          <h3>Tools & Technology</h3>
+          <div class="skill-item">
+            <span class="skill-name">Microsoft Office Suite</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">CRM Software</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Google Workspace</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Zoom / Google Meet</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Ticketing Systems (Zendesk-type)</span>
+            <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft-skills-section">
+      <p class="section-label">Personal Strengths</p>
+      <h2>Soft Skills That <em>Matter</em></h2>
+      <div class="soft-grid">
+        <div class="soft-card">🧠 Problem Solving</div>
+        <div class="soft-card">🗓️ Time Management</div>
+        <div class="soft-card">🤐 Confidentiality & Discretion</div>
+        <div class="soft-card">🌐 Written English Proficiency</div>
+        <div class="soft-card">📊 Attention to Detail</div>
+        <div class="soft-card">💡 Initiative & Proactivity</div>
+        <div class="soft-card">🤝 Interpersonal Communication</div>
+        <div class="soft-card">🔄 Multitasking Under Pressure</div>
+        <div class="soft-card">📱 Remote Work Discipline</div>
+      </div>
+    </section>
+
+    <section class="education-section">
+      <p class="section-label">Education</p>
+      <h2>Academic <em>Background</em></h2>
+      <div class="edu-card">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-details">
+          <h3>Bachelor of Science / Arts Degree</h3>
+          <p>University in Cavite Province, Philippines</p>
+          <p class="edu-note">Strong foundation in English communication, administration, and professional studies — core to the virtual assistant role.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Cathy M. Dela Cruz &mdash; Available for remote work from the Philippines 🇵🇭</p>
+      <div class="footer-links">
+        <a href="#" onclick="showPage('home',document.querySelectorAll('.nav-btn')[0])">Home</a>
+        <a href="#" onclick="showPage('about',document.querySelectorAll('.nav-btn')[1])">About</a>
+        <a href="#" onclick="showPage('skills',document.querySelectorAll('.nav-btn')[2])">Skills</a>
+        <a href="#" onclick="showPage('contact',document.querySelectorAll('.nav-btn')[3])">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ===================== PAGE: CONTACT ===================== -->
+  <div id="page-contact" class="page">
+
+    <section class="page-header">
+      <p class="section-label">Let's Connect</p>
+      <h1>Get in <em>Touch</em></h1>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-left">
+        <h2>Ready to Work <em>Together?</em></h2>
+        <p>I'm actively looking for virtual administrative assistant opportunities and am available to start immediately. Whether you have a project in mind or just want to see if I'm a good fit — don't hesitate to reach out.</p>
+        <p>I'm based in <strong>Cavite, Philippines</strong> and operate on <strong>PHT (UTC+8)</strong>, but I'm flexible to adjust my schedule to accommodate US-based business hours.</p>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <div class="ci-icon">📧</div>
+            <div>
+              <p class="ci-label">Email</p>
+              <p class="ci-value">cathydelacruz@email.com</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <p class="ci-label">Location</p>
+              <p class="ci-value">Cavite, Philippines</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon">🕐</div>
+            <div>
+              <p class="ci-label">Timezone</p>
+              <p class="ci-value">PHT (UTC+8) — Flexible to overlap with EST/CST</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon">💼</div>
+            <div>
+              <p class="ci-label">Availability</p>
+              <p class="ci-value">Full-time / Part-time — Open to discuss</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="contact-form-wrap">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="e.g. John Smith" />
+          </div>
+          <div class="form-group">
+            <label>Company</label>
+            <input type="text" placeholder="e.g. Acme Solutions" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="you@company.com" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Tell me about the role or project..."></textarea>
+          </div>
+          <button class="btn-primary btn-full" onclick="handleSubmit()">Send Message →</button>
+          <p id="form-success" class="form-success" style="display:none;">✅ Thank you! I'll get back to you within 24 hours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="availability-banner">
+      <div class="avail-inner">
+        <div class="avail-dot"></div>
+        <p>Currently <strong>available</strong> for new remote opportunities — Let's talk!</p>
+        <a href="mailto:cathydelacruz@email.com" class="btn-secondary">Email Me Directly</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Cathy M. Dela Cruz &mdash; Available for remote work from the Philippines 🇵🇭</p>
+      <div class="footer-links">
+        <a href="#" onclick="showPage('home',document.querySelectorAll('.nav-btn')[0])">Home</a>
+        <a href="#" onclick="showPage('about',document.querySelectorAll('.nav-btn')[1])">About</a>
+        <a href="#" onclick="showPage('skills',document.querySelectorAll('.nav-btn')[2])">Skills</a>
+        <a href="#" onclick="showPage('contact',document.querySelectorAll('.nav-btn')[3])">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function showPage(id, navEl) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(a => a.classList.remove('active'));
+      document.getElementById('page-' + id).classList.add('active');
+      if (navEl) navEl.classList.add('active');
+      window.scrollTo(0, 0);
+      document.querySelector('.nav-links').classList.remove('open');
+    }
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    }
+    function handleSubmit() {
+      document.getElementById('form-success').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
